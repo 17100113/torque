@@ -1,10 +1,10 @@
 <?php
 
 // MySQL Credentials
-$db_host = 'localhost';
-$db_user = '';     // Enter your MySQL username
-$db_pass = '';     // Enter your MySQL password
-$db_name = 'torque';
+$db_host = 'us-cdbr-iron-east-03.cleardb.net';
+$db_user = 'bf1007317ec6b0';     // Enter your MySQL username
+$db_pass = 'ae4fecda';     // Enter your MySQL password
+$db_name = 'heroku_991e11ce2fccbb1';
 $db_table = 'raw_logs';
 
 // User credentials for Browser login
