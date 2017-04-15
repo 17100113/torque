@@ -11,6 +11,7 @@ require_once ("./get_columns.php");
 require_once ("./plot.php");
 
 $_SESSION['recent_session_id'] = strval(max($sids));
+var_dump($sids);
 
 // Connect to Database
 $con = mysql_connect($db_host, $db_user, $db_pass) or die(mysql_error());
