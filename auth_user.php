@@ -88,7 +88,7 @@ if (!$logged_in) {
 
                         <h4>Login</h4>
                         <div class="row center-block" style="padding-bottom:4px;">
-                            <form method="post" class="form-horizontal" role="form" action="session.php" id="formlogin">
+                            <form method="post" class="form-horizontal" role="form" action="/session.php" id="formlogin">
                                 <input class="btn btn-info btn-sm" type="text" name="user" value="" placeholder="(Username)" />
                                 <input class="btn btn-info btn-sm" type="password" name="pass" value="" placeholder="(Password)" />
                                 <input class="btn btn-info btn-sm" type="submit" id="formlogin" name="Login" value="Login" />
