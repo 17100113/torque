@@ -8,8 +8,8 @@ $db_name = 'heroku_991e11ce2fccbb1';
 $db_table = 'raw_logs';
 
 // User credentials for Browser login
-$auth_user = 'torque';    //Sample: 'torque'
-$auth_pass = 'open';    //Sample: 'open'
+$auth_user = 'admin';    //Sample: 'torque'
+$auth_pass = 'admin';    //Sample: 'open'
 
 //If you want to restrict access to upload_data.php, 
 // either enter your torque ID as shown in the torque app, 
