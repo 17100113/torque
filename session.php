@@ -3,7 +3,6 @@
 ini_set('memory_limit', '100000');
 require_once ("creds.php");
 require_once ("auth_user.php");
-echo "lololololol";
 require_once ("del_session.php");
 require_once ("merge_sessions.php");
 require_once ("get_sessions.php");
