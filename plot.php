@@ -1,6 +1,6 @@
 <?php
-require_once("./creds.php");
-require_once("./parse_functions.php");
+require_once("creds.php");
+require_once("parse_functions.php");
 
 // Connect to Database
 mysql_connect($db_host, $db_user, $db_pass) or die(mysql_error());
