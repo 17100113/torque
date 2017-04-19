@@ -1,6 +1,6 @@
 <?php
-require_once("./creds.php");
-require_once("./get_sessions.php");
+require_once("creds.php");
+require_once("get_sessions.php");
 
 session_start();
 
