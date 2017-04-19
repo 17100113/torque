@@ -1,14 +1,14 @@
 <?php
 
 ini_set('memory_limit', '-1');
-require_once ("./creds.php");
-require_once ("./auth_user.php");
+require_once ("creds.php");
+require_once ("auth_user.php");
 
-require_once ("./del_session.php");
-require_once ("./merge_sessions.php");
-require_once ("./get_sessions.php");
-require_once ("./get_columns.php");
-require_once ("./plot.php");
+require_once ("del_session.php");
+require_once ("merge_sessions.php");
+require_once ("get_sessions.php");
+require_once ("get_columns.php");
+require_once ("plot.php");
 
 $_SESSION['recent_session_id'] = strval(max($sids));
 var_dump($sids);
